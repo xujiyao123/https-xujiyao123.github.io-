@@ -11,8 +11,7 @@ layout: default
 	<!-- Posts List -->
 	{%- for _post in _posts -%}
 		{%- capture _title -%}
-		<a href="#" class="image featured"><img src="{{- _post.photo | relative_url -}}" alt="" /></a>
-		<img src="{{- _post.photo | relative_url -}}" alt="{{- _post.photo-alt -}}">
+		<a href="{{- _post.photo | relative_url -}}" class="image featured"><img src="{{- _post.photo | relative_url -}}" alt="" /></a>
 		<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
