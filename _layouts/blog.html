@@ -5,13 +5,14 @@ layout: default
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
 <div id="main">
-	{%- if post.content != "" -%}
-		{%- include section.html title=post.title photo=post.cover-photo photo-alt=post.cover-photo-alt auto-header=post.auto-header content=post.content -%}
+	{%- if page.content != "" -%}
+		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
 	<!-- Posts List -->
 	{%- for _post in _posts -%}
 		{%- capture _title -%}
-			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
+		<img src="{{- _post.photo | relative_url -}}" alt="{{- _post.photo-alt -}}">
+		<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
