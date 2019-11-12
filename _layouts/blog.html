@@ -12,7 +12,7 @@ layout: default
 	{%- for _post in _posts -%}
 		{%- capture _title -%}
 		<a href="{{- _post.photo | relative_url -}}" class="image featured" style="display: block;overflow: hidden;height: 180px">
-			<img src="{{- _post.photo | relative_url -}}" alt="" height="100px" style="position: relative;top: -300px"/>
+			<img src="{{- _post.photo | relative_url -}}" alt="" style="position: relative;top: -300px"/>
 		</a>
 		<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
