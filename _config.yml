@@ -61,3 +61,8 @@ google_analytics:
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-cayman
 collections: [sections]
+
+favicon:
+  small: assets/images/hade.JPG
+  medium: assets/images/hade.JPG
+  apple_touch_icon: assets/images/hade.JPG
