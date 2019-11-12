@@ -5,7 +5,6 @@ layout: post
 photo: assets/images/rainbowlake.jpg
 ---
 
-<a href="#" class="image featured"><img src="{{'assets/images/rainbowlake.jpg' | relative_url }}" alt="" /></a>
 
 
 Lorem ipsum dolor sit amet, harum malorum nominavi mea et. Atqui maluisset duo cu, summo dignissim voluptatum sit ut. Ad quo quidam delicatissimi. Cum nihil noster patrioque id. Per at maiorum definitiones. Cu vix sint aliquip. No duo alia sale persecuti.
@@ -23,6 +22,9 @@ Eos cu partiendo vituperatoribus. Mel id duis delenit atomorum, mei tamquam nost
 Eum eu tritani accusata qualisque, pro ei purto vocent. Vim in insolens hendrerit similique. Nobis munere antiopam ei vix. Cum no labore partiendo conceptam. Sea id vide viderer mandamus, magna posidonium nam at. Ad populo persius duo, vel audire detracto scribentur ut.
 
 Vim te fastidii sententiae. Vix ad facilis gloriatur, mei an diceret iracundia vituperatoribus. Iudico consetetur dissentiunt pri ut. Consul dictas pri ne. Nec an alia volumus scaevola, eos movet deleniti argumentum te. Latine abhorreant his ad, ut modus in the following table:
+
+<a href="#" class="image featured"><img src="{{'assets/images/rainbowlake.jpg' | relative_url }}" alt="" /></a>
+
 
 <div class="table-wrapper">
   <table>
