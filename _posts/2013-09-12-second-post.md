@@ -2,7 +2,7 @@
 title: Second Post
 author: Chris
 layout: post
-photo: assets/images/rainbowlake.jpg
+photo: assets/images/1.jpg
 ---
 
 

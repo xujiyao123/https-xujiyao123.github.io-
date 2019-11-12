@@ -16,14 +16,13 @@ layout: default
 		{%- capture _subtitle -%}
 			{% if _post.author -%}{{- _post.author }} | {% endif %}
 			{{- _post.date | date_to_long_string -}}
-
-		{% if _post.photo -%}
-			<br>
-			<a href="{{- _post.photo | relative_url -}}" class="image featured" style="display: block;overflow: hidden;height: 180px">
-				<img src="{{- _post.photo | relative_url -}}" alt="" style="position: relative;top: -300px"/>
-			</a>
-		{% endif %}
-
+			{% if _post.photo -%}
+					<br>
+					<br>
+					<a href="{{- _post.photo | relative_url -}}" class="image featured" style="display: block;overflow: hidden;height: 180px">
+						<img src="{{- _post.photo | relative_url -}}" alt="" style="position: relative;top: -300px"/>
+					</a>
+			{% endif %}
 		{%- endcapture -%}
 
 
