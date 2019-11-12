@@ -1,11 +1,12 @@
 ---
-title: 欢迎
+title: Forbidden
 icon: fa-check
-order: 5
+order: 3
 ---
 
-This Jekyll theme lets you build as many of these sections as you want. They live in the _sections folder in your project's root directory. For some examples, see the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue). Just be sure to add some [frontmatter](https://jekyllrb.com/docs/frontmatter/) to each section.
+<a href="#" class="image featured"><img src="assets/images/1.jpg" alt="" /></a>
 
-All sections have titles, which are listed in the site's navigation menu. At the top of each section, the section's title will render by default (e.g., Welcome to Jekyll!). If you want it to show something different (see Intro), add **auto-header: none** to your frontmatter, and add your text in a <h2> tag inside a <header> tag outside the frontmatter. You'll want to give each section an **order** parameter, also in the frontmatter, or it won't know where to put itself and will hide. Icons are from [Font Awesome](https://fontawesome.com/icons).
-
-You may notice that this section is written in Markdown -- either Markdown or html works!
+北京故宫，旧称紫禁城，是中国明、清两代24个皇帝的皇宫。为我国现存最大最完整的古建筑群。建筑学家们认为故宫的设计与建筑，实在是一个无与伦比的杰作，
+    它的平面布局，立体效果，以及形式上的雄伟、堂皇、庄严、和谐，都可以说是上古罕见的。它标志着我们祖国悠久的文化传统，显示着五百多年前匠师们在建筑上的卓越成就。
+    本书不仅为我们呈现了紫禁城建筑的发展脉络，更通过诸多实地的测绘数据，加以分析，很真实地还原了古代建筑工匠的规划思想以及工程算法。并从历朝历代紫禁城的变化，
+    推测出了皇帝的规划意图，令人耳目一新。
