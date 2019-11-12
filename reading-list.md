@@ -1,6 +1,6 @@
 ---
 title: 阅读
-subtitle: a list of books I read
+subtitle: 落子无悔，莫问是非。
 layout: "page"
 icon: fa-book
 order: 3
